@@ -1,0 +1,57 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #1f2937;
+    color: white;
+}
+
+.links {
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.parte-1 {
+    background: #1f2937;
+    color: white;
+}
+
+.main-title {
+    
+}
+
+.parte-2 {
+    /* background: #eee; */
+}
+
+
+.parte-3 {
+    background: #e5e7eb;
+}
+
+.parte-4 {
+
+}
+
+.modal {
+    background: #3882f6;
+    color: white;
+}
+
+.footer {
+    background: #1f2937;
+    color: white;
+}

@@ -4,6 +4,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    /* text-align: left; */
     
 }
 
@@ -16,21 +17,23 @@ body {
     color: #f9faf8;
     display: flex;
     flex-direction: column;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     padding-left: 150px;
-    padding-right: 50px;
+    padding-right: 80px;
     padding-top: 10px;
     padding-bottom: 70px;
 }
 
 .header {
     display: flex; 
-    padding: 12px;
-    border: 2px solid red;
+    /* padding: 12px; */
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
-    border: solid yellow;
+    /* border: solid yellow; */
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
@@ -39,23 +42,31 @@ body {
 .links {
     display: flex;
     gap: 12px;
-    margin-left: 471px;
     width: 420px;  
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .padre {
     display: flex;
-    border: solid 8px paleturquoise;
+    /* border: solid 2px paleturquoise;  */
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 32px;
 }
 
 .izq {
-    border: 2px solid blue;
+     /* border: 2px solid blue;  */
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
 }
 
 .main-title {
+    display: flex;
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
@@ -63,17 +74,18 @@ body {
 }
 
 .subtext {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     width: 400px;
-    height: 100px;
     font-size: 18px;
     color: #e5e7eb;
+    margin: 8px 0;
 }
 
 button {
     background-color: #3882f6;
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: bold;
     border-radius: 8px;
     border: solid 2px #3882f6;
 }
@@ -81,16 +93,18 @@ button {
 .sign {
     display: flex;
     justify-content: center;
-    margin-left: 16px;
     width: 120px;
     background-color: #3882f6;
     border-radius: 8px;
 }
 
 .imagen {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-left: 150px;
     display: flex;
+    height: 250px;
+    width: 343px;
+    margin-top: 12px;
 }
 
 ul {
@@ -103,6 +117,78 @@ a {
     text-decoration: none;
     color: #f9faf8;
 }
+
+.parte-2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 80px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+    margin-top: 8px;
+  }
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 52px;
+}
+
+
+#info-1{
+  max-width: 200px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#info-2{
+    border: solid red;
+    max-width: 200px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#info-3{
+  max-width: 200px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#info-4{
+    max-width: 200px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
 
 .modal {
     background: #3882f6;

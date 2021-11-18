@@ -1,49 +1,107 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     min-height: 100vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
+    
 }
 
-.header {
-    background: #1f2937;
-    color: white;
-}
-
-.links {
-
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
+.content {
+    flex: 1;
 }
 
 .parte-1 {
     background: #1f2937;
-    color: white;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid orange;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.header {
+    display: flex; 
+    padding: 12px;
+    border: 2px solid red;
+}
+
+.logo {
+    border: solid yellow;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 12px;
+    margin-left: 471px;
+    width: 420px;  
+    border: 2px solid yellow;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.padre {
+    display: flex;
+    border: solid 8px paleturquoise;
+}
+
+.izq {
+    border: 2px solid blue;
 }
 
 .main-title {
-    
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    width: 350px;
 }
 
-.parte-2 {
-    /* background: #eee; */
+.subtext {
+    border: 2px solid orange;
+    width: 400px;
+    height: 100px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
-
-.parte-3 {
-    background: #e5e7eb;
+button {
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    border-radius: 8px;
+    border: solid 2px #3882f6;
 }
 
-.parte-4 {
+.sign {
+    display: flex;
+    justify-content: center;
+    margin-left: 16px;
+    width: 120px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
 
+.imagen {
+    border: 2px solid green;
+    margin-left: 150px;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
 }
 
 .modal {
@@ -54,4 +112,7 @@ a {
 .footer {
     background: #1f2937;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

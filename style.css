@@ -135,6 +135,10 @@ a {
     margin-top: 8px;
   }
 
+.img-2 {
+    max-width: 200px;
+}
+
 .information {
     display: flex;
     align-items: center;
